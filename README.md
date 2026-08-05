@@ -39,9 +39,9 @@
       </p>
     </td>
     <td width="42%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/images/profile.png" width="220" alt="Chetan Selukar"/>
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/images/profile.png" width="180" alt="Chetan Selukar"/>
       <br/><br/>
-      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v3.svg" width="300" alt="Developer ID Card - hanging"/>
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v3.svg" width="200" alt="Developer ID Card - hanging"/>
     </td>
   </tr>
 </table>
