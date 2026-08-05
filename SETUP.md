@@ -53,42 +53,41 @@ git push -u origin main
 
 Then set **Settings ? General ? Default branch** to `main`.
 
-## 3. Include Thinksmartin (private org) commits in counts
+## 3. Dual GitHub accounts (personal + Thinksmart)
 
-[Thinksmartin](https://github.com/Thinksmartin) has **no public repositories**. Commits there are private, so they only appear in streaks / graphs / the snake when GitHub is told to count private contributions.
+Work is split across two GitHub users:
 
-### Required (do this once)
+| Account | Role |
+|---------|------|
+| [chetanselukar07](https://github.com/chetanselukar07) | Personal profile |
+| [chetanthinksmart](https://github.com/chetanthinksmart) | Thinksmartin org commits |
+| [Thinksmartin](https://github.com/Thinksmartin) | Organization (private repos) |
 
-1. Open https://github.com/settings/profile  
-2. Scroll to **Contributions settings**  
-3. Enable **Include private contributions on my profile**  
-4. Confirm commits in Thinksmartin repos use the email linked to your GitHub account (`Selukar.chetan8@gmail.com` or your GitHub noreply email)
+The README shows **separate** stats / streak / languages / activity / snake for each account (GitHub cannot merge two usernames into one card).
 
-After that:
+### Required on chetanthinksmart
 
-| Widget             | Includes Thinksmartin private commits? |
-|--------------------|----------------------------------------|
-| Contribution graph | Yes (profile + README activity graph)  |
-| Streak             | Yes                                    |
-| Contribution snake | Yes (uses the same contribution data)  |
-| Public stats card  | Best-effort via `count_private=true`   |
+1. Sign in as **chetanthinksmart**
+2. Open https://github.com/settings/profile
+3. Enable **Include private contributions on my profile**
+4. Confirm Thinksmartin commits are authored as that account
 
-Public third-party stats hosts cannot read private org repo contents without a personal token. Streak + activity + snake are the reliable signals for Thinksmartin work.
+Do the same on **chetanselukar07** for private personal work.
 
-### Optional: make yourself a public org member
+### Optional
 
-On Thinksmartin ? **People** ? your membership ? set visibility to **Public** so the org appears on your GitHub profile sidebar.
+- Thinksmartin ? People ? set `chetanthinksmart` membership to **Public**
+- Actions ? **Generate Snake** ? Run workflow (regenerates both snakes)
 
 ## 4. What updates automatically
 
-| Widget              | Source                                      |
-|---------------------|---------------------------------------------|
-| GitHub Stats        | gitstats.vercel.app                         |
-| GitHub Streak       | github-readme-streak-stats                  |
-| Top Languages       | gitstats.vercel.app                         |
-| Activity Graph      | github-readme-activity-graph                |
-| Contribution Snake  | `.github/workflows/snake.yml` (daily cron)  |
-| Profile Views       | komarev.com/ghpvc                           |
+| Widget | Source |
+|--------|--------|
+| Stats / langs (both users) | gitstats.vercel.app |
+| Streak (both users) | github-readme-streak-stats |
+| Activity graphs (both users) | github-readme-activity-graph |
+| Snakes (both users) | `.github/workflows/snake.yml` |
+| Profile Views | komarev.com/ghpvc |
 
 ## 5. Optional tweaks
 
