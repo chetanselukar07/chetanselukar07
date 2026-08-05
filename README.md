@@ -11,6 +11,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Technical+Architect+%7C+AI+Developer;14%2B+Years+Building+Enterprise+Systems;.NET+Core+%7C+Angular+%7C+Azure+%7C+Microservices;CI%2FCD+%7C+Docker+%7C+JWT+%7C+Clean+Architecture" alt="Typing SVG" />
 </p>
 
+<p align="center">
+  <a href="https://chetanselukar07.github.io/chetanselukar07/"><img src="https://img.shields.io/badge/README%20HTML-Open%20clean%20view-39FF14?style=for-the-badge&logo=readme&logoColor=0A0E17&labelColor=0A0E17" alt="README HTML"/></a>
+</p>
+
 <br/>
 
 <table width="100%">

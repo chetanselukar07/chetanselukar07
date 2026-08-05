@@ -76,6 +76,20 @@ Then set **Settings ? General ? Default branch** to `main`.
 - Swap `assets/images/profile.png` (keep the same path)
 - Re-color SVG accents in `assets/*.svg` (`#39FF14` green, `#00F0FF` cyan)
 
+## 6. Clean README HTML link (GitHub Pages)
+
+Short HTML view (no GitHub chrome):
+
+**https://chetanselukar07.github.io/chetanselukar07/**
+
+Enable once:
+
+1. Repo ? **Settings** ? **Pages**
+2. Source: **GitHub Actions**
+3. Run workflow **Deploy README HTML** (or push to `development`)
+
+Files live in `docs/index.html`.
+
 ## Theme tokens
 
 | Token        | Hex       |

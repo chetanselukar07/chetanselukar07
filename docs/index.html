@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chetan Selukar | Technical Architect · AI Developer</title>
+  <meta name="description" content="GitHub profile README — Chetan Selukar" />
+  <link rel="icon" href="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/logo.svg" />
+  <style>
+    :root {
+      --bg: #0a0e17;
+      --panel: #0d1522;
+      --text: #e6f7ff;
+      --muted: #8be9ff;
+      --green: #39ff14;
+      --cyan: #00f0ff;
+      --border: rgba(0, 240, 255, 0.28);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(1200px 600px at 50% -10%, #102033 0%, var(--bg) 55%);
+      color: var(--text);
+      font-family: Segoe UI, Arial, Helvetica, sans-serif;
+      min-height: 100%;
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+    .bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: rgba(7, 21, 37, 0.85);
+      backdrop-filter: blur(8px);
+    }
+    .bar a {
+      color: var(--cyan);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .bar a:hover { color: var(--green); }
+    .brand {
+      color: var(--green);
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      font-size: 14px;
+    }
+    #readme {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: rgba(8, 14, 24, 0.92);
+      padding: 28px 22px 40px;
+      overflow-x: auto;
+      box-shadow: 0 0 40px rgba(0, 240, 255, 0.08);
+    }
+    #readme img { max-width: 100%; height: auto; }
+    #readme table { width: 100%; border-collapse: collapse; }
+    #readme td, #readme th { vertical-align: top; }
+    #readme h1, #readme h2, #readme h3 {
+      color: #fff;
+      border-bottom: 1px solid rgba(0, 240, 255, 0.15);
+      padding-bottom: 6px;
+    }
+    #readme h2 { color: var(--green); }
+    #readme a { color: var(--cyan); }
+    #readme code {
+      background: #071525;
+      color: var(--green);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.92em;
+    }
+    #readme hr {
+      border: 0;
+      border-top: 1px solid rgba(0, 240, 255, 0.18);
+      margin: 28px 0;
+    }
+    #readme ul { line-height: 1.55; }
+    .status {
+      text-align: center;
+      color: var(--muted);
+      padding: 40px 12px;
+      font-size: 15px;
+    }
+    .err { color: #ff6b6b; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="bar">
+      <div class="brand">Chetan Selukar · README</div>
+      <div>
+        <a href="https://github.com/chetanselukar07">GitHub Profile</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/chetanselukar07/chetanselukar07">Source</a>
+      </div>
+    </div>
+    <main id="readme"><p class="status">Loading README…</p></main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const RAW = "https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/README.md";
+    const ASSET_BASE = "https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/";
+
+    function rewriteAssets(html) {
+      return html
+        .replace(/(src|href)=["'](\.\/)?assets\//gi, '$1="' + ASSET_BASE + "assets/")
+        .replace(/(src|href)=["']\.\/assets\//gi, '$1="' + ASSET_BASE + "assets/");
+    }
+
+    async function load() {
+      const el = document.getElementById("readme");
+      try {
+        const res = await fetch(RAW + "?t=" + Date.now());
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        let md = await res.text();
+        // README is mostly HTML already; marked still handles mixed markdown.
+        let html = marked.parse(md, { async: false });
+        html = rewriteAssets(html);
+        el.innerHTML = html;
+      } catch (e) {
+        el.innerHTML = '<p class="status err">Could not load README. Open the GitHub profile instead.</p>';
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
