@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Technical+Architect+%7C+AI+Developer;14%2B+Years+Building+Enterprise+Systems;.NET+Core+%7C+Angular+%7C+Azure+%7C+Microservices;CI%2FCD+%7C+Docker+%7C+JWT+%7C+Clean+Architecture" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Technical+Architect+%7C+AI+Developer;14%2B+Years+Building+Enterprise+Systems;.NET+Core+%7C+Angular+%7C+Azure+%7C+Microservices;Logistics+%7C+Healthcare+%7C+Chemical+%7C+Clean+Carbon;Nonprofit+%7C+AI+%2F+LLMs" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
       <ul>
         <li><b>14+ years</b> building scalable enterprise apps with .NET Core, Angular &amp; Azure</li>
         <li>Microservices, JWT auth, CI/CD automation, Azure Functions &amp; App Services</li>
-        <li>Proven delivery across <b>logistics</b>, <b>healthcare</b> &amp; product platforms</li>
+        <li>Proven delivery across <b>shipment logistics</b>, <b>healthcare</b>, nonprofits, chemical &amp; clean carbon, and <b>AI / LLMs</b></li>
         <li>Modernize legacy systems into secure, cloud-ready architectures</li>
         <li>Creator of <b>VedAutom</b> · Technical Architect &amp; AI Developer</li>
         <li>Ahmedabad, Gujarat, India</li>
@@ -48,6 +48,19 @@
     </td>
   </tr>
 </table>
+
+---
+
+## Domains
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Shipment%20Logistics-00F0FF?style=for-the-badge&logoColor=0A0E17&labelColor=0A0E17" alt="Shipment Logistics"/>
+  <img src="https://img.shields.io/badge/Healthcare-39FF14?style=for-the-badge&logoColor=0A0E17&labelColor=0A0E17" alt="Healthcare"/>
+  <img src="https://img.shields.io/badge/Nonprofit%20Organizations-00F0FF?style=for-the-badge&logoColor=0A0E17&labelColor=0A0E17" alt="Nonprofit Organizations"/>
+  <img src="https://img.shields.io/badge/Chemical-39FF14?style=for-the-badge&logoColor=0A0E17&labelColor=0A0E17" alt="Chemical"/>
+  <img src="https://img.shields.io/badge/Clean%20Carbon-00F0FF?style=for-the-badge&logoColor=0A0E17&labelColor=0A0E17" alt="Clean Carbon"/>
+  <img src="https://img.shields.io/badge/AI%20%2F%20LLMs-39FF14?style=for-the-badge&logo=openai&logoColor=0A0E17&labelColor=0A0E17" alt="AI LLMs"/>
+</p>
 
 ---
 
@@ -254,7 +267,8 @@
 - Azure Functions, App Services &amp; serverless patterns
 - Microservices &amp; clean architecture at scale
 - CI/CD hardening with Azure DevOps &amp; GitLab
-- Logistics platforms, maps &amp; real-time bidding systems
+- Shipment logistics, healthcare, chemical &amp; clean carbon platforms
+- Nonprofit systems and AI / LLM-powered products
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/footer-v2.svg" alt="Footer" width="100%"/>
