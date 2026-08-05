@@ -63,13 +63,24 @@ Short HTML view:
 
 **https://chetanselukar07.github.io/chetanselukar07/**
 
-Enable once:
+Pick **one** source (do not leave both fighting):
+
+### Option A (recommended): Deploy from branch
 
 1. Repo -> **Settings** -> **Pages**
-2. Source: **GitHub Actions** (not "Deploy from a branch")
+2. Source: **Deploy from a branch**
+3. Branch: `development` / folder: **/docs** (or `/` root — both have `index.html`)
+4. Save
+
+`.nojekyll` is present so Jekyll will not break the static HTML.
+
+### Option B: GitHub Actions
+
+1. Repo -> **Settings** -> **Pages**
+2. Source: **GitHub Actions**
 3. Run workflow **Deploy README HTML**
 
-Do not use Jekyll / branch deploy for this repo. The HTML viewer is in `docs/index.html` and is published by Actions.
+If the site returns 404 again, Pages source was switched and the branch publish overwrote Actions (or the reverse). Re-check the setting above.
 
 ## 6. Optional tweaks
 
