@@ -32,8 +32,8 @@
   </g>
 
   <text x="600" y="90" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Made with love by Chetan Selukar</text>
-  <text x="600" y="125" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="15">Building the Future, One Commit at a Time</text>
-  <text x="600" y="165" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">.NET | Angular | Azure | AI</text>
+  <text x="600" y="125" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="15">Building Secure, Cloud-Ready Enterprise Solutions</text>
+  <text x="600" y="165" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">.NET Core | Angular | Azure | CI/CD</text>
 
   <g stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.7">
     <path d="M30 50 V30 H50"/>

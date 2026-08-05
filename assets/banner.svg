@@ -64,17 +64,17 @@
   <text x="405" y="149" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">Hi, I'm</text>
   <text x="600" y="210" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" letter-spacing="2">CHETAN SELUKAR</text>
   <text x="600" y="245" text-anchor="middle" fill="#E6F7FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500">Senior Full Stack Developer</text>
-  <text x="600" y="275" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="14">Architecting Scalable | Cloud Solutions | AI Powered Products</text>
+  <text x="600" y="275" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="14">.NET Core | Angular | Azure | Microservices | CI/CD</text>
 
   <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600">
-    <rect x="390" y="295" width="70" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
-    <text x="425" y="312" text-anchor="middle" fill="#00F0FF">.NET</text>
-    <rect x="475" y="295" width="90" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
-    <text x="520" y="312" text-anchor="middle" fill="#39FF14">Angular</text>
-    <rect x="580" y="295" width="80" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
-    <text x="620" y="312" text-anchor="middle" fill="#00F0FF">Azure</text>
-    <rect x="675" y="295" width="60" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
-    <text x="705" y="312" text-anchor="middle" fill="#39FF14">AI</text>
+    <rect x="350" y="295" width="80" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
+    <text x="390" y="312" text-anchor="middle" fill="#00F0FF">.NET</text>
+    <rect x="445" y="295" width="90" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
+    <text x="490" y="312" text-anchor="middle" fill="#39FF14">Angular</text>
+    <rect x="550" y="295" width="80" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
+    <text x="590" y="312" text-anchor="middle" fill="#00F0FF">Azure</text>
+    <rect x="645" y="295" width="120" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
+    <text x="705" y="312" text-anchor="middle" fill="#39FF14">Microservices</text>
   </g>
 
   <g stroke="#00F0FF" stroke-width="2.5" fill="none" opacity="0.85">
