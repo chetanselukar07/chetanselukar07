@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/banner.svg" alt="Chetan Selukar - Technical Architect | AI Developer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/banner-v2.svg" alt="Chetan Selukar - Technical Architect | AI Developer" width="100%"/>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
     <td width="42%" align="center" valign="top">
       <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/images/profile.png" width="220" alt="Chetan Selukar"/>
       <br/><br/>
-      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card.svg" width="280" alt="Developer ID Card"/>
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v2.svg" width="280" alt="Developer ID Card"/>
     </td>
   </tr>
 </table>
@@ -248,5 +248,5 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/footer.svg" alt="Footer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/footer-v2.svg" alt="Footer" width="100%"/>
 </p>
