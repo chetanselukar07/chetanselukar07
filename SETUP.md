@@ -8,21 +8,18 @@ Green / Blue Cloud Cyberpunk profile for **chetanselukar07**.
 chetanselukar07/
 ??? README.md
 ??? SETUP.md
-??? .github/
-?   ??? workflows/
-?       ??? snake.yml
+??? docs/
+?   ??? index.html          # clean HTML README viewer
+??? .github/workflows/
+?   ??? snake.yml
+?   ??? pages.yml
 ??? assets/
-    ??? banner.svg
-    ??? developer-card.svg
-    ??? background.svg
-    ??? cloud.svg
-    ??? footer.svg
-    ??? logo.svg
+    ??? banner-v2.svg
+    ??? developer-card-fx.svg
     ??? images/
     ?   ??? profile.png
-    ??? animations/          # created by GitHub Actions
-        ??? github-contribution-grid-snake.svg
-        ??? github-contribution-grid-snake-dark.svg
+    ?   ??? profile-glow.png
+    ??? animations/
 ```
 
 ## 1. Enable GitHub Actions
@@ -30,34 +27,23 @@ chetanselukar07/
 1. Open the repository on GitHub
 2. Go to **Actions**
 3. Click **I understand my workflows, go ahead and enable them** (if prompted)
-4. Open **Generate Snake** ? **Run workflow**
-
-The contribution snake SVGs appear under `assets/animations/` after the first successful run.
+4. Open **Generate Snake** -> **Run workflow**
 
 ## 2. Push to your default branch
 
-This repo’s default branch is currently `development`. The profile README is shown from the **default branch** of `chetanselukar07/chetanselukar07`.
+This repo default branch is `development`.
 
 ```bash
 git add .
-git commit -m "Initial GitHub profile"
+git commit -m "Update GitHub profile"
 git push origin development
 ```
-
-If you later switch the default branch to `main`:
-
-```bash
-git checkout -b main
-git push -u origin main
-```
-
-Then set **Settings ? General ? Default branch** to `main`.
 
 ## 3. Private contributions (optional)
 
 1. Open https://github.com/settings/profile
 2. Enable **Include private contributions on my profile**
-3. Actions ? **Generate Snake** ? Run workflow
+3. Actions -> **Generate Snake** -> Run workflow
 
 ## 4. What updates automatically
 
@@ -69,32 +55,33 @@ Then set **Settings ? General ? Default branch** to `main`.
 | Activity Graph | github-readme-activity-graph |
 | Contribution Snake | `.github/workflows/snake.yml` |
 | Profile Views | komarev.com/ghpvc |
+| README HTML page | `.github/workflows/pages.yml` |
 
-## 5. Optional tweaks
+## 5. Clean README HTML link (GitHub Pages)
 
-- Replace LinkedIn / email / location in `README.md`
-- Swap `assets/images/profile.png` (keep the same path)
-- Re-color SVG accents in `assets/*.svg` (`#39FF14` green, `#00F0FF` cyan)
-
-## 6. Clean README HTML link (GitHub Pages)
-
-Short HTML view (no GitHub chrome):
+Short HTML view:
 
 **https://chetanselukar07.github.io/chetanselukar07/**
 
 Enable once:
 
-1. Repo ? **Settings** ? **Pages**
-2. Source: **GitHub Actions**
-3. Run workflow **Deploy README HTML** (or push to `development`)
+1. Repo -> **Settings** -> **Pages**
+2. Source: **GitHub Actions** (not "Deploy from a branch")
+3. Run workflow **Deploy README HTML**
 
-Files live in `docs/index.html`.
+Do not use Jekyll / branch deploy for this repo. The HTML viewer is in `docs/index.html` and is published by Actions.
+
+## 6. Optional tweaks
+
+- Replace LinkedIn / email / location in `README.md`
+- Swap `assets/images/profile.png` (then regenerate glow with `python scripts/make_profile_glow.py`)
+- Re-color SVG accents (`#39FF14` green, `#00F0FF` cyan)
 
 ## Theme tokens
 
-| Token        | Hex       |
-|--------------|-----------|
-| Neon green   | `#39FF14` |
-| Cyan         | `#00F0FF` |
-| Deep navy    | `#0A0E17` |
-| Panel blue   | `#071525` |
+| Token | Hex |
+|-------|-----|
+| Neon green | `#39FF14` |
+| Cyan | `#00F0FF` |
+| Deep navy | `#0A0E17` |
+| Panel blue | `#071525` |
