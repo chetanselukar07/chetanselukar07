@@ -58,7 +58,7 @@
 
 <p align="center">
   <img height="180" src="https://gitstats.vercel.app/api?username=chetanselukar07&show_icons=true&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180" src="https://streak-stats.demolab.com/?user=chetanselukar07&background=0A0E17&border=00F0FF&stroke=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanselukar07&theme=dark&background=0A0E17&border=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
