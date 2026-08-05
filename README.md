@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Chetan Selukar — Senior Full Stack Developer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/banner.svg" alt="Chetan Selukar - Senior Full Stack Developer" width="100%"/>
 </p>
 
 <p align="center">
@@ -17,9 +17,9 @@
   <tr>
     <td width="58%" valign="top">
 
-### <img src="./assets/logo.svg" width="28" height="28" alt="logo"/> About Me
+### <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/logo.svg" width="28" height="28" alt="logo"/> About Me
 
-<img src="./assets/background.svg" width="100%" alt=""/>
+<img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/background.svg" width="100%" alt="circuit"/>
 
 - Creator of **VedAutom**
 - AI · Automation · Cloud · Scalable Solutions
@@ -42,11 +42,11 @@
     </td>
     <td width="42%" align="center" valign="top">
 
-<img src="./assets/images/profile.png" width="220" alt="Chetan Selukar"/>
+<img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/images/profile.png" width="220" alt="Chetan Selukar"/>
 
 <br/>
 
-<img src="./assets/developer-card.svg" width="280" alt="Developer ID Card"/>
+<img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card.svg" width="280" alt="Developer ID Card"/>
 
     </td>
   </tr>
@@ -57,12 +57,12 @@
 ## GitHub Analytics
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=chetanselukar07&show_icons=true&theme=radical&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180" src="https://streak-stats.demolab.com?user=chetanselukar07&theme=radical&background=0A0E17&border=00F0FF&stroke=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
+  <img height="180" src="https://gitstats.vercel.app/api?username=chetanselukar07&show_icons=true&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanselukar07&background=0A0E17&border=00F0FF&stroke=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chetanselukar07&layout=compact&theme=radical&bg_color=0A0E17&title_color=39FF14&text_color=E6F7FF&border_color=00F0FF&hide_border=false&langs_count=6" alt="Top Languages"/>
+  <img height="180" src="https://gitstats.vercel.app/api/top-langs/?username=chetanselukar07&layout=compact&bg_color=0A0E17&title_color=39FF14&text_color=E6F7FF&border_color=00F0FF&langs_count=6" alt="Top Languages"/>
 </p>
 
 <p align="center">
@@ -72,11 +72,7 @@
 ### Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/animations/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/animations/github-contribution-grid-snake.svg"/>
-    <img alt="github contribution snake" src="./assets/animations/github-contribution-grid-snake.svg"/>
-  </picture>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/animations/github-contribution-grid-snake-dark.svg"/>
 </p>
 
 ---
@@ -84,7 +80,7 @@
 ## Tech Stack
 
 <p align="center">
-  <img src="./assets/cloud.svg" width="160" alt="Cloud"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/cloud.svg" width="160" alt="Cloud"/>
 </p>
 
 <table>
@@ -214,5 +210,5 @@ High-throughput API platforms with caching, containers, and cloud deployment.
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Footer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/footer.svg" alt="Footer" width="100%"/>
 </p>

@@ -10,13 +10,6 @@
       <stop offset="50%" stop-color="#39FF14"/>
       <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M28 0 H0 V28" fill="none" stroke="#00F0FF" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
@@ -24,10 +17,9 @@
 
   <rect width="1200" height="220" fill="url(#fbg)"/>
   <rect width="1200" height="220" fill="url(#grid)"/>
-  <rect y="0" width="1200" height="2" fill="url(#neon)" filter="url(#glow)"/>
+  <rect y="0" width="1200" height="2" fill="url(#neon)"/>
 
-  <!-- Cloud + server -->
-  <g transform="translate(920,40)" filter="url(#glow)">
+  <g transform="translate(920,40)">
     <path fill="#071525" stroke="#00F0FF" stroke-width="2"
       d="M36 90 C14 90 6 68 18 54 C8 34 30 18 52 26 C62 8 92 6 108 24 C126 14 152 24 156 46 C178 48 188 70 172 88 C182 106 156 116 132 108 C116 122 74 120 56 104 C44 112 36 100 36 90 Z"/>
     <text x="96" y="78" text-anchor="middle" fill="#39FF14" font-family="Consolas, monospace" font-size="22" font-weight="700">&lt;/&gt;</text>
@@ -39,9 +31,9 @@
     </g>
   </g>
 
-  <text x="600" y="90" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Made with e by Chetan Selukar</text>
-  <text x="600" y="125" text-anchor="middle" fill="#8BE9FF" font-family="Segoe UI, Arial, sans-serif" font-size="15">Building the Future, One Commit at a Time</text>
-  <text x="600" y="165" text-anchor="middle" fill="#39FF14" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="1">.NET · Angular · Azure · AI</text>
+  <text x="600" y="90" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Made with love by Chetan Selukar</text>
+  <text x="600" y="125" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="15">Building the Future, One Commit at a Time</text>
+  <text x="600" y="165" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">.NET | Angular | Azure | AI</text>
 
   <g stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.7">
     <path d="M30 50 V30 H50"/>
