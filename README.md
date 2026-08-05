@@ -51,29 +51,6 @@
 
 ---
 
-## GitHub Analytics
-
-<p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api?username=chetanselukar07&show_icons=true&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanselukar07&theme=dark&background=0A0E17&border=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api/top-langs/?username=chetanselukar07&layout=compact&bg_color=0A0E17&title_color=39FF14&text_color=E6F7FF&border_color=00F0FF&langs_count=6&count_private=true" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chetanselukar07&bg_color=0A0E17&color=39FF14&line=00F0FF&point=39FF14&area=true&hide_border=true&custom_title=Contribution%20Activity%20(Last%2012%20Months)" alt="Activity Graph" width="100%"/>
-</p>
-
-### Contribution Snake
-
-<p align="center">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/animations/github-contribution-grid-snake-dark.svg"/>
-</p>
-
----
-
 ## Tech Stack
 
 <p align="center">
@@ -278,10 +255,6 @@
 - Microservices &amp; clean architecture at scale
 - CI/CD hardening with Azure DevOps &amp; GitLab
 - Logistics platforms, maps &amp; real-time bidding systems
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chetanselukar07&label=Profile%20Views&color=39ff14&style=for-the-badge" alt="Profile views"/>
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/footer-v2.svg" alt="Footer" width="100%"/>
