@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05080F"/>
+      <stop offset="50%" stop-color="#0A1220"/>
+      <stop offset="100%" stop-color="#05080F"/>
+    </linearGradient>
+    <linearGradient id="lineG" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#00F0FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#grid)"/>
+
+  <!-- Horizon circuit -->
+  <g stroke="url(#lineG)" stroke-width="1.5" fill="none" filter="url(#glow)" opacity="0.9">
+    <path d="M0 100 H220 L250 70 H380 L410 100 H560 L590 55 H720 L750 100 H900 L930 80 H1050 L1080 100 H1200"/>
+    <path d="M0 130 H180 L210 150 H340 L370 130 H520 L550 160 H680 L710 130 H860 L890 145 H1020 L1050 130 H1200" opacity="0.55"/>
+  </g>
+
+  <g fill="#39FF14" filter="url(#glow)">
+    <circle cx="250" cy="70" r="3"/>
+    <circle cx="410" cy="100" r="3"/>
+    <circle cx="590" cy="55" r="3.5"/>
+    <circle cx="750" cy="100" r="3"/>
+    <circle cx="930" cy="80" r="3"/>
+  </g>
+  <g fill="#00F0FF" filter="url(#glow)">
+    <circle cx="210" cy="150" r="2.5"/>
+    <circle cx="550" cy="160" r="2.5"/>
+    <circle cx="890" cy="145" r="2.5"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <g stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M20 40 V20 H40"/>
+    <path d="M1160 20 H1180 V40"/>
+    <path d="M20 160 V180 H40"/>
+    <path d="M1160 180 H1180 V160"/>
+  </g>
+</svg>

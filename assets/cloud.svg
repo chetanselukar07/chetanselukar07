@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180" fill="none">
+  <defs>
+    <linearGradient id="cloudFill" x1="40" y1="30" x2="240" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#061018"/>
+      <stop offset="100%" stop-color="#0A1A2E"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="280" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Cloud body -->
+  <path filter="url(#glow)" fill="url(#cloudFill)" stroke="url(#neon)" stroke-width="2.5"
+    d="M70 120
+       C40 120 28 95 42 75
+       C30 50 55 30 85 38
+       C95 18 130 12 155 28
+       C175 10 215 18 225 45
+       C255 48 270 75 255 100
+       C270 125 235 140 200 130
+       C180 150 120 148 95 130
+       C80 140 70 130 70 120 Z"/>
+
+  <!-- Circuit traces -->
+  <g stroke="#00F0FF" stroke-width="1.2" opacity="0.85" filter="url(#glow)">
+    <path d="M80 90 H130 V70 H170"/>
+    <path d="M100 110 H160 V95 H210"/>
+    <path d="M140 125 H190"/>
+    <circle cx="130" cy="70" r="2.5" fill="#39FF14"/>
+    <circle cx="170" cy="70" r="2.5" fill="#00F0FF"/>
+    <circle cx="160" cy="95" r="2.5" fill="#39FF14"/>
+    <circle cx="210" cy="95" r="2.5" fill="#00F0FF"/>
+    <circle cx="190" cy="125" r="2.5" fill="#39FF14"/>
+  </g>
+
+  <!-- Code brackets -->
+  <g fill="none" stroke="#39FF14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" opacity="0.95">
+    <path d="M118 68 L105 85 L118 102"/>
+    <path d="M162 68 L175 85 L162 102"/>
+    <path d="M132 104 L148 66" stroke="#00F0FF"/>
+  </g>
+
+  <!-- Server rack accent -->
+  <g transform="translate(198,108)" filter="url(#glow)">
+    <rect x="0" y="0" width="36" height="42" rx="4" fill="#071018" stroke="#00F0FF" stroke-width="1.5"/>
+    <rect x="6" y="6" width="24" height="6" rx="1" fill="#0d2233" stroke="#39FF14" stroke-width="0.8"/>
+    <rect x="6" y="16" width="24" height="6" rx="1" fill="#0d2233" stroke="#00F0FF" stroke-width="0.8"/>
+    <rect x="6" y="26" width="24" height="6" rx="1" fill="#0d2233" stroke="#39FF14" stroke-width="0.8"/>
+    <circle cx="10" cy="9" r="1.2" fill="#39FF14"/>
+    <circle cx="10" cy="19" r="1.2" fill="#00F0FF"/>
+    <circle cx="10" cy="29" r="1.2" fill="#39FF14"/>
+  </g>
+</svg>

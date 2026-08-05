@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#03060C"/>
+      <stop offset="45%" stop-color="#071525"/>
+      <stop offset="100%" stop-color="#040A14"/>
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#00FF9F"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#0088FF"/>
+    </linearGradient>
+    <linearGradient id="cityGlow" x1="600" y1="120" x2="600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#39FF14" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0 H0 V32" fill="none" stroke="#00F0FF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <ellipse cx="600" cy="140" rx="420" ry="120" fill="url(#orb)"/>
+
+  <!-- City skyline -->
+  <g opacity="0.9">
+    <rect x="80" y="210" width="40" height="110" fill="#0A1524" stroke="#00F0FF" stroke-width="1" opacity="0.85"/>
+    <rect x="130" y="180" width="55" height="140" fill="#0B1830" stroke="#39FF14" stroke-width="1" opacity="0.8"/>
+    <rect x="195" y="230" width="35" height="90" fill="#0A1524" stroke="#00F0FF" stroke-width="1"/>
+    <rect x="250" y="160" width="70" height="160" fill="#0C1A32" stroke="#00F0FF" stroke-width="1.2"/>
+    <rect x="330" y="200" width="45" height="120" fill="#0A1524" stroke="#39FF14" stroke-width="1"/>
+    <rect x="820" y="195" width="50" height="125" fill="#0A1524" stroke="#00F0FF" stroke-width="1"/>
+    <rect x="880" y="155" width="65" height="165" fill="#0C1A32" stroke="#39FF14" stroke-width="1.2"/>
+    <rect x="955" y="210" width="40" height="110" fill="#0A1524" stroke="#00F0FF" stroke-width="1"/>
+    <rect x="1005" y="175" width="55" height="145" fill="#0B1830" stroke="#00F0FF" stroke-width="1"/>
+    <rect x="1070" y="220" width="45" height="100" fill="#0A1524" stroke="#39FF14" stroke-width="1"/>
+
+    <!-- Windows -->
+    <g fill="#00F0FF" opacity="0.7">
+      <rect x="140" y="195" width="6" height="8" rx="1"/><rect x="155" y="195" width="6" height="8" rx="1"/>
+      <rect x="140" y="215" width="6" height="8" rx="1"/><rect x="155" y="215" width="6" height="8" rx="1"/>
+      <rect x="265" y="180" width="7" height="9" rx="1"/><rect x="280" y="180" width="7" height="9" rx="1"/>
+      <rect x="265" y="200" width="7" height="9" rx="1"/><rect x="280" y="200" width="7" height="9" rx="1"/>
+      <rect x="895" y="175" width="7" height="9" rx="1"/><rect x="910" y="175" width="7" height="9" rx="1"/>
+      <rect x="895" y="195" width="7" height="9" rx="1"/><rect x="910" y="195" width="7" height="9" rx="1"/>
+    </g>
+    <g fill="#39FF14" opacity="0.65">
+      <rect x="90" y="230" width="5" height="7" rx="1"/><rect x="102" y="230" width="5" height="7" rx="1"/>
+      <rect x="1015" y="195" width="6" height="8" rx="1"/><rect x="1030" y="195" width="6" height="8" rx="1"/>
+    </g>
+  </g>
+
+  <!-- Ground neon line -->
+  <rect x="0" y="318" width="1200" height="2" fill="url(#neonCyan)" filter="url(#glow)" opacity="0.8"/>
+  <path d="M0 330 H1200" stroke="#39FF14" stroke-width="1" opacity="0.35"/>
+
+  <!-- Circuit accents -->
+  <g stroke="#00F0FF" stroke-width="1.5" fill="none" filter="url(#glow)" opacity="0.75">
+    <path d="M40 80 H160 L180 60 H260"/>
+    <path d="M940 70 H1040 L1060 50 H1160"/>
+    <circle cx="180" cy="60" r="3" fill="#39FF14"/>
+    <circle cx="1060" cy="50" r="3" fill="#39FF14"/>
+  </g>
+
+  <!-- Cloud emblem -->
+  <g transform="translate(520,40)" filter="url(#softGlow)" opacity="0.9">
+    <path fill="#071525" stroke="#00F0FF" stroke-width="2"
+      d="M40 70 C20 70 12 52 22 40 C14 24 32 12 50 18 C58 4 82 2 95 16 C110 8 132 16 136 34 C154 36 162 54 150 68 C158 82 138 90 118 84 C105 96 70 94 55 82 C46 88 40 78 40 70 Z"/>
+    <path d="M55 52 H85 V42 H105" stroke="#39FF14" stroke-width="1.5" fill="none"/>
+    <circle cx="85" cy="42" r="2" fill="#00F0FF"/>
+    <circle cx="105" cy="42" r="2" fill="#39FF14"/>
+  </g>
+
+  <!-- Title block -->
+  <g filter="url(#glow)">
+    <rect x="360" y="130" width="90" height="28" rx="14" fill="#0A1A2E" stroke="#39FF14" stroke-width="1.5"/>
+    <text x="405" y="149" text-anchor="middle" fill="#39FF14" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Hi, I'm</text>
+
+    <text x="600" y="210" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="2">CHETAN SELUKAR</text>
+    <text x="600" y="210" text-anchor="middle" fill="#39FF14" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="2" opacity="0.25">CHETAN SELUKAR</text>
+
+    <text x="600" y="245" text-anchor="middle" fill="#E6F7FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">Senior Full Stack Developer</text>
+    <text x="600" y="275" text-anchor="middle" fill="#8BE9FF" font-family="Segoe UI, Arial, sans-serif" font-size="14">Architecting Scalable · Cloud Solutions · AI Powered Products</text>
+  </g>
+
+  <!-- Tech chips -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">
+    <rect x="390" y="295" width="70" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
+    <text x="425" y="312" text-anchor="middle" fill="#00F0FF">.NET</text>
+    <rect x="475" y="295" width="90" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
+    <text x="520" y="312" text-anchor="middle" fill="#39FF14">Angular</text>
+    <rect x="580" y="295" width="80" height="26" rx="13" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
+    <text x="620" y="312" text-anchor="middle" fill="#00F0FF">Azure</text>
+    <rect x="675" y="295" width="60" height="26" rx="13" fill="#071525" stroke="#39FF14" stroke-width="1.5"/>
+    <text x="705" y="312" text-anchor="middle" fill="#39FF14">AI</text>
+  </g>
+
+  <!-- Frame corners -->
+  <g stroke="#00F0FF" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M24 70 V24 H70"/>
+    <path d="M1130 24 H1176 V70"/>
+    <path d="M24 290 V336 H70"/>
+    <path d="M1130 336 H1176 V290"/>
+  </g>
+  <g stroke="#39FF14" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M34 55 V34 H55"/>
+    <path d="M1145 34 H1166 V55"/>
+  </g>
+</svg>
