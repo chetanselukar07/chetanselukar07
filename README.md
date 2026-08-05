@@ -4,11 +4,11 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/banner.svg" alt="Chetan Selukar - Senior Full Stack Developer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/banner.svg" alt="Chetan Selukar - Technical Architect | AI Developer" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Senior+Full+Stack+Developer+(14%2B+Yrs);.NET+Core+%7C+Angular+%7C+Azure+%7C+Microservices;CI%2FCD+%7C+Docker+%7C+JWT+%7C+Clean+Architecture;Logistics+%7C+Healthcare+%7C+Enterprise+Products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=900&lines=Technical+Architect+%7C+AI+Developer;14%2B+Years+Building+Enterprise+Systems;.NET+Core+%7C+Angular+%7C+Azure+%7C+Microservices;CI%2FCD+%7C+Docker+%7C+JWT+%7C+Clean+Architecture" alt="Typing SVG" />
 </p>
 
 <br/>
@@ -26,7 +26,7 @@
         <li>Microservices, JWT auth, CI/CD automation, Azure Functions &amp; App Services</li>
         <li>Proven delivery across <b>logistics</b>, <b>healthcare</b> &amp; product platforms</li>
         <li>Modernize legacy systems into secure, cloud-ready architectures</li>
-        <li>Creator of <b>VedAutom</b> · Freelance Full Stack since 2020</li>
+        <li>Creator of <b>VedAutom</b> · Technical Architect &amp; AI Developer</li>
         <li>Ahmedabad, Gujarat, India</li>
       </ul>
       <p><b>Core focus</b></p>
@@ -34,7 +34,7 @@
         <img src="https://img.shields.io/badge/.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Core"/>
         <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
         <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
-        <img src="https://img.shields.io/badge/Microservices-39FF14?style=for-the-badge&logo=kubernetes&logoColor=0A0E17" alt="Microservices"/>
+        <img src="https://img.shields.io/badge/AI-00FF9F?style=for-the-badge&logo=openai&logoColor=0A0E17" alt="AI"/>
       </p>
     </td>
     <td width="42%" align="center" valign="top">
@@ -186,7 +186,7 @@
 <table>
   <tr>
     <td valign="top" width="50%">
-      <p><b>Freelance Full Stack Developer</b><br/>Apr 2020 – Present</p>
+      <p><b>Freelance Technical Architect &amp; AI Developer</b><br/>Apr 2020 – Present</p>
       <ul>
         <li>Scalable .NET Core + Angular PWAs</li>
         <li>Azure Functions, App Services, Docker</li>
