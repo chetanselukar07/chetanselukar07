@@ -15,7 +15,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top">
+    <td width="58%" valign="top">
       <h3>
         <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/logo.svg" width="28" height="28" alt="logo"/>
         About Me
@@ -38,8 +38,10 @@
         <img src="https://img.shields.io/badge/AI-00FF9F?style=for-the-badge&logo=openai&logoColor=0A0E17" alt="AI"/>
       </p>
     </td>
-    <td width="38%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v5.svg" height="280" alt="Developer ID Card - hanging"/>
+    <td width="42%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/images/profile.png" width="170" alt="Chetan Selukar"/>
+      <br/><br/>
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v2.svg" width="210" alt="Developer ID Card"/>
     </td>
   </tr>
 </table>
