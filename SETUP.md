@@ -53,40 +53,21 @@ git push -u origin main
 
 Then set **Settings ? General ? Default branch** to `main`.
 
-## 3. Dual GitHub accounts (personal + Thinksmart)
+## 3. Private contributions (optional)
 
-Work is split across two GitHub users:
-
-| Account | Role |
-|---------|------|
-| [chetanselukar07](https://github.com/chetanselukar07) | Personal profile |
-| [chetanthinksmart](https://github.com/chetanthinksmart) | Thinksmartin org commits |
-| [Thinksmartin](https://github.com/Thinksmartin) | Organization (private repos) |
-
-The README shows **separate** stats / streak / languages / activity / snake for each account (GitHub cannot merge two usernames into one card).
-
-### Required on chetanthinksmart
-
-1. Sign in as **chetanthinksmart**
-2. Open https://github.com/settings/profile
-3. Enable **Include private contributions on my profile**
-4. Confirm Thinksmartin commits are authored as that account
-
-Do the same on **chetanselukar07** for private personal work.
-
-### Optional
-
-- Thinksmartin ? People ? set `chetanthinksmart` membership to **Public**
-- Actions ? **Generate Snake** ? Run workflow (regenerates both snakes)
+1. Open https://github.com/settings/profile
+2. Enable **Include private contributions on my profile**
+3. Actions ? **Generate Snake** ? Run workflow
 
 ## 4. What updates automatically
 
 | Widget | Source |
 |--------|--------|
-| Stats / langs (both users) | gitstats.vercel.app |
-| Streak (both users) | github-readme-streak-stats |
-| Activity graphs (both users) | github-readme-activity-graph |
-| Snakes (both users) | `.github/workflows/snake.yml` |
+| GitHub Stats | gitstats.vercel.app |
+| GitHub Streak | github-readme-streak-stats |
+| Top Languages | gitstats.vercel.app |
+| Activity Graph | github-readme-activity-graph |
+| Contribution Snake | `.github/workflows/snake.yml` |
 | Profile Views | komarev.com/ghpvc |
 
 ## 5. Optional tweaks

@@ -27,7 +27,6 @@
         <li>Proven delivery across <b>logistics</b>, <b>healthcare</b> &amp; product platforms</li>
         <li>Modernize legacy systems into secure, cloud-ready architectures</li>
         <li>Creator of <b>VedAutom</b> · Technical Architect &amp; AI Developer</li>
-        <li>Thinksmartin work via <a href="https://github.com/chetanthinksmart"><b>chetanthinksmart</b></a> · Org: <a href="https://github.com/Thinksmartin"><b>Thinksmartin</b></a></li>
         <li>Ahmedabad, Gujarat, India</li>
       </ul>
       <p><b>Core focus</b></p>
@@ -48,65 +47,25 @@
 
 ---
 
-## Organizations &amp; Accounts
-
-<p align="center">
-  <a href="https://github.com/chetanselukar07"><img src="https://img.shields.io/badge/Personal-chetanselukar07-39FF14?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0E17" alt="chetanselukar07"/></a>
-  <a href="https://github.com/chetanthinksmart"><img src="https://img.shields.io/badge/Thinksmart-chetanthinksmart-00F0FF?style=for-the-badge&logo=github&logoColor=0A0E17&labelColor=0A0E17" alt="chetanthinksmart"/></a>
-  <a href="https://github.com/Thinksmartin"><img src="https://img.shields.io/badge/Org-Thinksmartin-181717?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=0A0E17" alt="Thinksmartin"/></a>
-</p>
-
-<p align="center">
-  Analytics below cover <b>both</b> GitHub identities:
-  <a href="https://github.com/chetanselukar07">chetanselukar07</a> (personal)
-  and
-  <a href="https://github.com/chetanthinksmart">chetanthinksmart</a> (Thinksmartin org work).
-</p>
-
----
-
 ## GitHub Analytics
 
-### Personal — chetanselukar07
-
 <p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api?username=chetanselukar07&show_icons=true&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&include_all_commits=true&count_private=true" alt="Personal GitHub Stats"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanselukar07&theme=dark&background=0A0E17&border=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="Personal GitHub Streak"/>
+  <img height="170" src="https://gitstats.vercel.app/api?username=chetanselukar07&show_icons=true&bg_color=0A0E17&title_color=39FF14&icon_color=00F0FF&text_color=E6F7FF&ring_color=00F0FF&border_color=00F0FF&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanselukar07&theme=dark&background=0A0E17&border=00F0FF&ring=39FF14&fire=39FF14&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=39FF14&sideLabels=E6F7FF&dates=A0B4C8" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api/top-langs/?username=chetanselukar07&layout=compact&bg_color=0A0E17&title_color=39FF14&text_color=E6F7FF&border_color=00F0FF&langs_count=6&count_private=true" alt="Personal Top Languages"/>
+  <img height="170" src="https://gitstats.vercel.app/api/top-langs/?username=chetanselukar07&layout=compact&bg_color=0A0E17&title_color=39FF14&text_color=E6F7FF&border_color=00F0FF&langs_count=6&count_private=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chetanselukar07&bg_color=0A0E17&color=39FF14&line=00F0FF&point=39FF14&area=true&hide_border=true&custom_title=Personal%20Activity%20(chetanselukar07)" alt="Personal Activity Graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chetanselukar07&bg_color=0A0E17&color=39FF14&line=00F0FF&point=39FF14&area=true&hide_border=true&custom_title=Contribution%20Activity%20(Last%2012%20Months)" alt="Activity Graph" width="100%"/>
 </p>
 
-### Thinksmartin — chetanthinksmart
+### Contribution Snake
 
 <p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api?username=chetanthinksmart&show_icons=true&bg_color=0A0E17&title_color=00F0FF&icon_color=39FF14&text_color=E6F7FF&ring_color=39FF14&border_color=00F0FF&include_all_commits=true&count_private=true" alt="Thinksmart GitHub Stats"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=chetanthinksmart&theme=dark&background=0A0E17&border=39FF14&ring=00F0FF&fire=00F0FF&currStreakNum=39FF14&sideNums=39FF14&currStreakLabel=00F0FF&sideLabels=E6F7FF&dates=A0B4C8" alt="Thinksmart GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img height="170" src="https://gitstats.vercel.app/api/top-langs/?username=chetanthinksmart&layout=compact&bg_color=0A0E17&title_color=00F0FF&text_color=E6F7FF&border_color=39FF14&langs_count=6&count_private=true" alt="Thinksmart Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chetanthinksmart&bg_color=0A0E17&color=00F0FF&line=39FF14&point=00F0FF&area=true&hide_border=true&custom_title=Thinksmartin%20Activity%20(chetanthinksmart)" alt="Thinksmart Activity Graph" width="100%"/>
-</p>
-
-### Contribution Snakes
-
-<p align="center"><b>Personal</b></p>
-<p align="center">
-  <img alt="personal contribution snake" src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/animations/github-contribution-grid-snake-dark.svg"/>
-</p>
-
-<p align="center"><b>Thinksmartin (chetanthinksmart)</b></p>
-<p align="center">
-  <img alt="thinksmart contribution snake" src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/animations/thinksmart-contribution-grid-snake-dark.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/animations/github-contribution-grid-snake-dark.svg"/>
 </p>
 
 ---
@@ -267,7 +226,6 @@
 
 <p align="center">
   <a href="https://github.com/chetanselukar07"><img src="https://img.shields.io/badge/GitHub-chetanselukar07-39FF14?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0E17" alt="GitHub"/></a>
-  <a href="https://github.com/Thinksmartin"><img src="https://img.shields.io/badge/Org-Thinksmartin-181717?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=0A0E17" alt="Thinksmartin"/></a>
   <a href="mailto:Selukar.chetan8@gmail.com"><img src="https://img.shields.io/badge/Email-Selukar.chetan8%40gmail.com-39FF14?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0E17" alt="Email"/></a>
   <a href="https://kruvedinfotech.com"><img src="https://img.shields.io/badge/Website-kruvedinfotech.com-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A0E17" alt="Website"/></a>
   <a href="https://www.linkedin.com/company/kruvedinfotech/"><img src="https://img.shields.io/badge/LinkedIn-Kruved%20Infotech-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0E17" alt="LinkedIn"/></a>
