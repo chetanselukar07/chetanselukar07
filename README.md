@@ -39,7 +39,7 @@
       </p>
     </td>
     <td width="38%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v4.svg" height="260" alt="Developer ID Card - hanging"/>
+      <img src="https://raw.githubusercontent.com/chetanselukar07/chetanselukar07/development/assets/developer-card-v5.svg" height="280" alt="Developer ID Card - hanging"/>
     </td>
   </tr>
 </table>
