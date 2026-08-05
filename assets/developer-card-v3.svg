@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="620" viewBox="0 0 400 620" fill="none">
+  <defs>
+    <linearGradient id="cardBg" x1="20" y1="70" x2="380" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#0A1A2E"/>
+    </linearGradient>
+    <linearGradient id="border" x1="20" y1="70" x2="380" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <linearGradient id="vGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="160" y1="8" x2="240" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8BE9FF"/>
+      <stop offset="50%" stop-color="#E6F7FF"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <linearGradient id="strap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#00F0FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#00F0FF" flood-opacity="0.28"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="miniGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0 H0 V20" fill="none" stroke="#00F0FF" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Floor shadow (hanging depth) -->
+  <ellipse cx="200" cy="602" rx="118" ry="12" fill="#00F0FF" opacity="0.12"/>
+  <ellipse cx="200" cy="602" rx="90" ry="8" fill="#39FF14" opacity="0.08"/>
+
+  <!-- Hanging pivot + swing group (SMIL swing where supported) -->
+  <g transform="rotate(-2.4 200 28)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-3.4 200 28; 3.4 200 28; -3.4 200 28"
+      dur="3.8s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      keyTimes="0;0.5;1"/>
+
+    <!-- Ceiling hook / clip bar -->
+    <rect x="168" y="6" width="64" height="12" rx="4" fill="#0A1524" stroke="url(#metal)" stroke-width="1.8"/>
+    <rect x="178" y="16" width="44" height="18" rx="3" fill="#071525" stroke="#00F0FF" stroke-width="1.5"/>
+    <circle cx="200" cy="25" r="5" fill="#050A12" stroke="#39FF14" stroke-width="1.5"/>
+    <circle cx="200" cy="25" r="2" fill="#39FF14"/>
+
+    <!-- Lanyard straps -->
+    <path d="M186 34 Q178 55 170 78" stroke="url(#strap)" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <path d="M214 34 Q222 55 230 78" stroke="url(#strap)" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <path d="M186 34 Q178 55 170 78" stroke="#E6F7FF" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.35"/>
+    <path d="M214 34 Q222 55 230 78" stroke="#E6F7FF" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+    <!-- Clip rings on card -->
+    <circle cx="170" cy="88" r="7" fill="#071525" stroke="#00F0FF" stroke-width="2"/>
+    <circle cx="230" cy="88" r="7" fill="#071525" stroke="#00F0FF" stroke-width="2"/>
+    <circle cx="170" cy="88" r="3" fill="#39FF14"/>
+    <circle cx="230" cy="88" r="3" fill="#39FF14"/>
+
+    <!-- Card body (hanging) -->
+    <g filter="url(#softShadow)">
+      <rect x="28" y="78" width="344" height="500" rx="22" fill="url(#cardBg)" stroke="url(#border)" stroke-width="2.5"/>
+      <rect x="28" y="78" width="344" height="500" rx="22" fill="url(#miniGrid)"/>
+
+      <!-- Top badge bar -->
+      <rect x="28" y="78" width="344" height="40" rx="22" fill="#061525"/>
+      <rect x="28" y="98" width="344" height="20" fill="#061525"/>
+      <text x="200" y="104" text-anchor="middle" fill="#00F0FF" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3">DEVELOPER ID</text>
+
+      <!-- Punch hole accent under clip -->
+      <ellipse cx="200" cy="128" rx="14" ry="7" fill="#05080F" stroke="#39FF14" stroke-width="1.2" opacity="0.9"/>
+
+      <!-- Avatar -->
+      <circle cx="200" cy="195" r="68" fill="none" stroke="#00F0FF" stroke-width="2"/>
+      <circle cx="200" cy="195" r="64" fill="none" stroke="#39FF14" stroke-width="1.5" opacity="0.7"/>
+      <circle cx="200" cy="195" r="58" fill="#071525" stroke="#39FF14" stroke-width="1"/>
+      <text x="200" y="208" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">CS</text>
+
+      <!-- Identity -->
+      <text x="200" y="290" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Chetan Selukar</text>
+      <text x="200" y="318" text-anchor="middle" fill="#39FF14" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">Technical Architect</text>
+      <text x="200" y="340" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="12">AI Developer | .NET | Azure</text>
+      <text x="200" y="362" text-anchor="middle" fill="#A0B4C8" font-family="Arial, Helvetica, sans-serif" font-size="12">14+ Years | Ahmedabad, India</text>
+
+      <path d="M70 380 H330" stroke="url(#border)" stroke-width="1" opacity="0.7"/>
+
+      <!-- VedAutom -->
+      <g transform="translate(160,395)">
+        <rect x="0" y="0" width="80" height="48" rx="12" fill="#071525" stroke="url(#vGrad)" stroke-width="1.5"/>
+        <path d="M22 38 L40 10 L58 38 H48 L40 24 L32 38 Z" fill="url(#vGrad)"/>
+      </g>
+      <text x="200" y="465" text-anchor="middle" fill="#00F0FF" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">VEDAUTOM</text>
+      <text x="200" y="484" text-anchor="middle" fill="#7F98B0" font-family="Arial, Helvetica, sans-serif" font-size="11">Scalable Enterprise Systems</text>
+
+      <!-- QR block -->
+      <g transform="translate(155,500)">
+        <rect x="0" y="0" width="90" height="50" rx="8" fill="#050A12" stroke="#00F0FF" stroke-width="1.2"/>
+        <g fill="#39FF14">
+          <rect x="10" y="8" width="10" height="10"/><rect x="22" y="8" width="4" height="4"/><rect x="28" y="8" width="10" height="10"/>
+          <rect x="10" y="20" width="4" height="4"/><rect x="16" y="20" width="10" height="4"/><rect x="28" y="22" width="4" height="4"/><rect x="34" y="20" width="4" height="10"/>
+          <rect x="10" y="32" width="10" height="10"/><rect x="22" y="34" width="4" height="4"/><rect x="28" y="32" width="10" height="10"/>
+          <rect x="48" y="8" width="8" height="8"/><rect x="60" y="10" width="4" height="4"/><rect x="68" y="8" width="12" height="12"/>
+          <rect x="48" y="22" width="4" height="8"/><rect x="56" y="24" width="12" height="4"/><rect x="72" y="22" width="8" height="8"/>
+          <rect x="48" y="34" width="10" height="8"/><rect x="62" y="36" width="4" height="4"/><rect x="70" y="34" width="10" height="8"/>
+        </g>
+      </g>
+      <text x="200" y="570" text-anchor="middle" fill="#8BE9FF" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2">SCAN TO CONNECT</text>
+
+      <!-- Corner ticks -->
+      <g stroke="#39FF14" stroke-width="2" fill="none" opacity="0.8">
+        <path d="M48 118 V98 H68"/>
+        <path d="M332 98 H352 V118"/>
+        <path d="M48 542 V562 H68"/>
+        <path d="M332 562 H352 V542"/>
+      </g>
+    </g>
+  </g>
+</svg>
