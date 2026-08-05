@@ -86,25 +86,45 @@
       <p><b>Languages</b></p>
       <p>
         <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
+        <img src="https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="VB.NET"/>
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000" alt="JavaScript"/>
         <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/XAML-512BD4?style=flat-square&logo=windows&logoColor=white" alt="XAML"/>
+        <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON"/>
+        <img src="https://img.shields.io/badge/XML-005FAD?style=flat-square&logo=xml&logoColor=white" alt="XML"/>
       </p>
       <p><b>Frontend</b></p>
       <p>
         <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular"/>
+        <img src="https://img.shields.io/badge/AngularJS-E23237?style=flat-square&logo=angularjs&logoColor=white" alt="AngularJS"/>
         <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/>
         <img src="https://img.shields.io/badge/WPF%20MVVM-512BD4?style=flat-square&logo=windows&logoColor=white" alt="WPF"/>
         <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" alt="jQuery"/>
+        <img src="https://img.shields.io/badge/KnockoutJS-EF4572?style=flat-square&logo=knockout&logoColor=white" alt="KnockoutJS"/>
+        <img src="https://img.shields.io/badge/Kendo%20UI-FF6358?style=flat-square&logo=telerik&logoColor=white" alt="Kendo UI"/>
+        <img src="https://img.shields.io/badge/jqGrid-4479A1?style=flat-square&logo=jquery&logoColor=white" alt="jqGrid"/>
       </p>
     </td>
     <td valign="top" width="33%">
       <p><b>Backend</b></p>
       <p>
         <img src="https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Core"/>
+        <img src="https://img.shields.io/badge/.NET%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET Framework"/>
+        <img src="https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET MVC"/>
+        <img src="https://img.shields.io/badge/ASP.NET%20Web%20Forms-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Web Forms"/>
         <img src="https://img.shields.io/badge/Web%20API-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Web API"/>
+        <img src="https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square&logo=fastapi&logoColor=white" alt="REST"/>
+        <img src="https://img.shields.io/badge/Microservices-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Microservices"/>
         <img src="https://img.shields.io/badge/JWT%20Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
         <img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="EF"/>
+        <img src="https://img.shields.io/badge/LINQ-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="LINQ"/>
+        <img src="https://img.shields.io/badge/ADO.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ADO.NET"/>
+        <img src="https://img.shields.io/badge/NLog-000000?style=flat-square&logo=dotnet&logoColor=white" alt="NLog"/>
       </p>
       <p><b>Database</b></p>
       <p>
@@ -112,13 +132,17 @@
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+        <img src="https://img.shields.io/badge/SAS-0C55A5?style=flat-square&logo=sas&logoColor=white" alt="SAS"/>
+        <img src="https://img.shields.io/badge/Stored%20Procedures-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="Stored Procedures"/>
       </p>
     </td>
     <td valign="top" width="33%">
       <p><b>Cloud &amp; DevOps</b></p>
       <p>
         <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS"/>
         <img src="https://img.shields.io/badge/Azure%20Functions-0062AD?style=flat-square&logo=azurefunctions&logoColor=white" alt="Azure Functions"/>
+        <img src="https://img.shields.io/badge/App%20Services-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="App Services"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
         <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps"/>
         <img src="https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI/CD"/>
@@ -126,9 +150,17 @@
       <p><b>Practices &amp; Tools</b></p>
       <p>
         <img src="https://img.shields.io/badge/Agile%20Scrum-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Agile"/>
+        <img src="https://img.shields.io/badge/SDLC-0A0E17?style=flat-square&logo=git&logoColor=39FF14" alt="SDLC"/>
         <img src="https://img.shields.io/badge/Okta-007DC1?style=flat-square&logo=okta&logoColor=white" alt="Okta"/>
         <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=000" alt="Swagger"/>
+        <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" alt="Visual Studio"/>
         <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+        <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
+        <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira"/>
+        <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps"/>
+        <img src="https://img.shields.io/badge/HERE%20Maps-48DAD0?style=flat-square&logo=here&logoColor=000" alt="HERE Maps"/>
       </p>
     </td>
   </tr>
